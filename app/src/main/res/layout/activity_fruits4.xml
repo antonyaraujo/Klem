@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    tools:context=".Fruits4">
+
+    <Button
+        android:id="@+id/responderbt"
+        android:layout_width="282dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="#bf2e5f"
+        android:enabled="?android:attr/windowSwipeToDismiss"
+        android:fontFamily="@font/silentecho"
+        android:text="Responder"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcao3" />
+
+    <Button
+        android:id="@+id/pergunta"
+        android:layout_width="279dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/white"
+        android:fontFamily="@font/silentecho"
+        android:onClick="Pergunta"
+        android:shadowColor="@android:color/black"
+        android:text="@string/FPergunta4"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#bf2e5f"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/opcao2"
+        android:layout_width="112dp"
+        android:layout_height="159dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/fruta_laranja"
+        android:onClick="Opcao2"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/opcao1"
+        app:layout_constraintTop_toBottomOf="@+id/pergunta" />
+
+    <Button
+        android:id="@+id/opcao1"
+        android:layout_width="112dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/fruta_morango"
+        android:onClick="Opcao1"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pergunta" />
+
+    <Button
+        android:id="@+id/opcao4"
+        android:layout_width="112dp"
+        android:layout_height="159dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/fruta_pera"
+        android:onClick="Opcao4"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/opcao3"
+        app:layout_constraintTop_toBottomOf="@+id/opcao2" />
+
+    <Button
+        android:id="@+id/opcao3"
+        android:layout_width="112dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/fruta_cereja"
+        android:onClick="Opcao3"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcao1" />
+
+    <ImageView
+        android:id="@+id/Sopcao1"
+        android:layout_width="113dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:elevation="2dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pergunta"
+        app:srcCompat="@drawable/app_selecao" />
+
+    <ImageView
+        android:id="@+id/Sopcao2"
+        android:layout_width="113dp"
+        android:layout_height="157dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:elevation="2dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Sopcao1"
+        app:layout_constraintTop_toBottomOf="@+id/pergunta"
+        app:srcCompat="@drawable/app_selecao" />
+
+    <ImageView
+        android:id="@+id/Sopcao3"
+        android:layout_width="113dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="32dp"
+        android:elevation="2dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/opcao3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sopcao1"
+        app:layout_constraintVertical_bias="0.416"
+        app:srcCompat="@drawable/app_selecao" />
+
+    <ImageView
+        android:id="@+id/Sopcao4"
+        android:layout_width="113dp"
+        android:layout_height="157dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:elevation="2dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Sopcao3"
+        app:layout_constraintTop_toBottomOf="@+id/Sopcao2"
+        app:srcCompat="@drawable/app_selecao" />
+
+
+</android.support.constraint.ConstraintLayout>

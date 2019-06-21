@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Klem</string>
+
+    <!-- Perguntas do tema Animais  -->
+    <string name="APergunta1"> Cachorro </string>
+    <string name="APergunta2"> Dog </string>
+    <string name="APergunta3"> Elefante </string>
+    <string name="APergunta4"> Bird </string>
+    <string name="APergunta5"> Bear </string>
+
+    <!-- Perguntas do tema Fruta  -->
+    <string name="FPergunta1"> Maçã </string>
+    <string name="FPergunta2"> Watermelon </string>
+    <string name="FPergunta3"> Morango </string>
+    <string name="FPergunta4"> Orange </string>
+    <string name="FPergunta5"> Pera </string>
+
+    <!-- Perguntas do tema Numeros  -->
+    <string name="NPergunta1"> Quatro </string>
+    <string name="NPergunta2"> Seven </string>
+    <string name="NPergunta3"> Dez </string>
+    <string name="NPergunta4"> Cinco </string>
+    <string name="NPergunta5"> Two </string>
+
+    <!-- Perguntas do tema Brinquedos  -->
+    <string name="TPergunta1"> Robô </string>
+    <string name="TPergunta2"> Boneca </string>
+    <string name="TPergunta3"> Ball </string>
+    <string name="TPergunta4"> Car </string>
+    <string name="TPergunta5"> Avião </string>
+
+    <!-- Perguntas do tema Roupas  -->
+    <string name="RPergunta1"> Hat </string>
+    <string name="RPergunta2"> Pants </string>
+    <string name="RPergunta3"> Vestido </string>
+    <string name="RPergunta4"> Camisa </string>
+    <string name="RPergunta5"> Sapato </string>
+
+    <!-- Configuração dos links do Sobre */ -->
+    <string name="imagens"><a href="https://www.freepik.com/">Freepik</a> e <a href="https://giphy.com">Giphy</a></string>
+    <string name="emails"><a href="mailto:antonyaraujo@protonmail.com">antonyaraujo@protonmail.com</a>\n<a href="mailto:mel.cco2@gmail.com">mel.cco2@gmail.com</a></string>
+
+
+</resources>

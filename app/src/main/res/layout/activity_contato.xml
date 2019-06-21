@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    tools:context=".Contato">
+
+    <ImageView
+        android:id="@+id/devIcon8"
+        android:layout_width="50dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devIcon7"
+        app:srcCompat="@drawable/contato_versao" />
+
+    <ImageView
+        android:id="@+id/devIcon7"
+        android:layout_width="49dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devIcon6"
+        app:srcCompat="@drawable/contato_data" />
+
+    <ImageView
+        android:id="@+id/devIcon6"
+        android:layout_width="49dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devIcon5"
+        app:srcCompat="@drawable/contato_email" />
+
+    <ImageView
+        android:id="@+id/devIcon5"
+        android:layout_width="49dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/orientadoraa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devIcon4"
+        app:srcCompat="@drawable/contato_contato2" />
+
+    <TextView
+        android:id="@+id/desenvolvedores7"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/roboto"
+        android:text="Narração"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/devIcon4"
+        app:layout_constraintTop_toBottomOf="@+id/desenvolvedores6" />
+
+    <TextView
+        android:id="@+id/arteDev3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
+        android:text="Melissa Oliveira"
+        app:layout_constraintStart_toEndOf="@+id/devIcon4"
+        app:layout_constraintTop_toBottomOf="@+id/desenvolvedores6" />
+
+    <ImageView
+        android:id="@+id/devIcon4"
+        android:layout_width="49dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/arteDev3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devIcon2"
+        app:srcCompat="@drawable/contato_micro" />
+
+    <TextView
+        android:id="@+id/desenvolvedores6"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="143dp"
+        android:fontFamily="@font/roboto"
+        android:text="Design e Diagramação"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/devIcon2"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <TextView
+        android:id="@+id/arteDev"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="78dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/imagens"
+        app:layout_constraintStart_toEndOf="@+id/devIcon3"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <TextView
+        android:id="@+id/desenvolvedores5"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="96dp"
+        android:fontFamily="@font/roboto"
+        android:text="Imagens e Gifs"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/devIcon3"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <TextView
+        android:id="@+id/arteDev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
+        android:text="Antony Araújo"
+        app:layout_constraintStart_toEndOf="@+id/devIcon2"
+        app:layout_constraintTop_toBottomOf="@+id/desenvolvedores5" />
+
+    <ImageView
+        android:id="@+id/devIcon3"
+        android:layout_width="49dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/arteDev"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devIcon"
+        app:srcCompat="@drawable/contato_gif" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/silentecho"
+        android:text="Sobre o KLEM"
+        android:textColor="#bf2e5f"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/desenvolvedores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/roboto"
+        android:text="Antony Araújo e Melissa Oliveira"
+        app:layout_constraintStart_toEndOf="@+id/devIcon"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <TextView
+        android:id="@+id/desenvolvedores2"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/roboto"
+        android:text="Desenvolvedores"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/devIcon"
+        app:layout_constraintTop_toBottomOf="@+id/desenvolvedores" />
+
+    <ImageView
+        android:id="@+id/devIcon2"
+        android:layout_width="49dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/arteDev2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devIcon3"
+        app:srcCompat="@drawable/contato_arte" />
+
+    <ImageView
+        android:id="@+id/devIcon"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/desenvolvedores"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:srcCompat="@drawable/contato_contato" />
+
+    <TextView
+        android:id="@+id/orientadoraa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
+        android:text="Valéria Gabriel Santos"
+        app:layout_constraintStart_toEndOf="@+id/devIcon5"
+        app:layout_constraintTop_toBottomOf="@+id/desenvolvedores7" />
+
+    <TextView
+        android:id="@+id/orientadora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/roboto"
+        android:text="Orientadora"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/devIcon5"
+        app:layout_constraintTop_toBottomOf="@+id/desenvolvedores7" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/emails"
+        app:layout_constraintStart_toEndOf="@+id/devIcon6"
+        app:layout_constraintTop_toBottomOf="@+id/orientadora" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/roboto"
+        android:text="22/10/2018"
+        app:layout_constraintStart_toEndOf="@+id/devIcon7"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <TextView
+        android:id="@+id/ano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/roboto"
+        android:text="Data de Lançamento"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/devIcon7"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
+        android:text="Versão estável 1.2"
+        app:layout_constraintStart_toEndOf="@+id/devIcon8"
+        app:layout_constraintTop_toBottomOf="@+id/ano" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/roboto"
+        android:text="Versão Alpha"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/devIcon8"
+        app:layout_constraintTop_toBottomOf="@+id/ano" />
+
+</android.support.constraint.ConstraintLayout>
