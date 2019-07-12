@@ -10,4 +10,3 @@
 
 <b>Observação: </b>Esta aplicação foi desenvolvida como resultado de um artigo de tese de conclusão de curso intitulada: <i>"KLEM: Um aplicativo para a aprendizagem da língua
 inglesa baseado no conceito de educação ubíqua"</i> e pode ser lida <a href="https://github.com/antonyaraujo/Klem/raw/master/artigo.pdf">clicando aqui</a>. Este artigo foi aceito no concurso de trabalhos técnicos do Computer on The Beach.
-
