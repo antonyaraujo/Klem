@@ -7,6 +7,3 @@
 <b>Funcionamento: </b> O jogo consiste em, basicamente, acertar qual a figura está sendo pedida em inglês ou em português..
 
 <b>Instalação: </b> Para baixar o arquivo .apk <a href="">Clique aqui</a>
-
-<b>Observação: </b>Esta aplicação foi desenvolvida como resultado de um artigo de tese de conclusão de curso intitulada: <i>"KLEM: Um aplicativo para a aprendizagem da língua
-inglesa baseado no conceito de educação ubíqua"</i> e pode ser lida <a href="https://github.com/antonyaraujo/Klem/raw/master/artigo.pdf">clicando aqui</a>.
